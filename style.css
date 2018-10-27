@@ -1,6 +1,11 @@
+
+
 body{
 	padding: 0;
 	margin: 0;
+	margin-top: 55px !important;
+	margin-left: 75px !important;
+	
 	font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
@@ -9,6 +14,15 @@ body{
 	max-width: 600px;
 	margin: 50px auto;
 }
+    .inactive
+    {
+     color:#555555 !important;
+    }
+
+	sub
+	{
+	font-size: 17px !important;
+	}
 
 input{
 	font-family: 'Helvetica', 'Arial', sans-serif;
@@ -336,7 +350,14 @@ a:not(.btn){
 	text-decoration: none;
 	color: #152a3f;
 	padding: 5px;
-	border-bottom: 2px solid #152a3f;
+	/* border-bottom: 2px solid #152a3f */
+	display: inline-block;
+}
+a.link{
+	text-decoration: none;
+	color: #152a3f;
+	padding: 5px;
+	border-bottom: 2px solid #152a3f
 	display: inline-block;
 }
 
