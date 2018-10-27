@@ -353,6 +353,15 @@ a:not(.btn){
 	/* border-bottom: 2px solid #152a3f */
 	display: inline-block;
 }
+
+a:not(.btn):hover, a:not(.btn):active  {
+	text-decoration: none;
+	color: #0000ff;
+	padding: 5px;
+	/* border-bottom: 2px solid #152a3f */
+	display: inline-block;
+}
+
 a.link{
 	text-decoration: none;
 	color: #152a3f;
